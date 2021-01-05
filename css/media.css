@@ -1,0 +1,384 @@
+@media(max-width:575px) {
+    /*    navbar part*/
+    .navbar-light .navbar-toggler {
+        color: #042136;
+        background: #fff;
+        padding: 7px 11px;
+        border-radius: 3px;
+        transition: all linear .3s;
+    }
+    .navbar-light .navbar-toggler:hover {
+        background: #129dff;
+        color: #fff;
+    }
+    .navbar-nav {
+        background: #042136;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+    /*    bennar part*/
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .banner-text p {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 27px;
+    }
+    .hvr-bounce-to-left {
+        padding: 11px 6px;
+    }
+    .hvr-bounce-to-right {
+        padding: 11px 15px;
+    }
+    /*    about part*/
+    .about-text {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about-text h3 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .about-btn {
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 15px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    /*    portfolio part*/
+    .portfolio-controllers .filter-btn {
+        float: none;
+        margin: 5px 3px;
+    }
+    .title-text {
+        padding: 0px 0px;
+        padding-bottom: 15px;
+    }
+    /*    service part*/
+    #service {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .service-items {
+        padding-top: 20px;
+    }
+    .service-items i {
+        padding-bottom: 10px;
+    }
+    .service-items h3 {
+        padding-bottom: 8px;
+    }
+    .service-items p {
+        padding: 0 15px;
+        padding-bottom: 20px;
+    }
+    /*    pricing part*/
+    .plan {
+        margin-bottom: 25px;
+    }
+    /*    team patr*/
+    #team {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .team-member {
+        margin-bottom: 35px;
+    }
+    /*    counter part*/
+    .counter-text {
+        margin-bottom: 30px;
+    }
+    /*    blog part*/
+    #blog {
+        padding-bottom: 50px;
+    }
+    .blog-img img {
+        margin-top: 40px;
+    }
+    .blog-head h3 {
+        margin-bottom: 5px;
+    }
+    .blog-head p {
+        margin-top: 35px;
+        padding-bottom: 0px;
+    }
+    
+
+    .left {
+        display: none !important;
+    }
+    .right {
+        display: none !important;
+    }
+    /*    brand*/
+    .brand {
+        padding: 30px 63px;
+    }
+    /*    contact part*/
+    .contact-text i {
+        margin-top: 35px;
+    }
+    .contact-logo {
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+    /*    navbar part*/
+    .navbar-light .navbar-toggler {
+        color: #042136;
+        background: #fff;
+        padding: 7px 11px;
+        border-radius: 3px;
+        transition: all linear .3s;
+    }
+    .navbar-light .navbar-toggler:hover {
+        background: #129dff;
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-nav {
+        background: #042136;
+        border-radius: 3px;
+        text-align: center;
+    }
+    /*    bennar part*/
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .banner-text p {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 27px;
+    }
+    .hvr-bounce-to-left {
+        padding: 11px 6px;
+    }
+    .hvr-bounce-to-right {
+        padding: 11px 15px;
+    }
+    /*    about part*/
+    .about-text h3 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 15px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .about-btn {
+        text-align: center;
+    }
+    /*    portfolio part*/
+    .portfolio-controllers .filter-btn {
+        float: none;
+        margin: 5px 5px;
+    }
+    .title-text {
+        padding: 0px 0px;
+        padding-bottom: 15px;
+    }
+    /*    service part*/
+    #service {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .service-items {
+        padding-top: 50px;
+    }
+    .service-items i {
+        padding-bottom: 20px;
+    }
+    .service-items h3 {
+        padding-bottom: 8px;
+    }
+    .service-items p {
+        padding: 0 15px;
+        padding-bottom: 50px;
+        margin-top: 10px;
+    }
+    /*    pricing part*/
+    .plan {
+        margin-bottom: 25px;
+    }
+    /*    team patr*/
+    #team {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .team-member {
+        margin-bottom: 35px;
+    }
+    /*    counter part*/
+    .counter-text {
+        margin-bottom: 30px;
+    }
+    /*    blog part*/
+    .blog-img img {
+        margin-top: 40px;
+    }
+    .blog-head h3 {
+        margin-bottom: 5px;
+    }
+    #blog {
+        padding-bottom: 50px;
+    }
+    .blog-head p {
+        padding-top: 25px;
+    }
+    .blog-head p {
+        margin-top: 35px;
+        padding-bottom: 0px;
+    }
+    /*    barnd part*/
+    /*    contact part*/
+    .contact-text i {
+        margin-top: 35px;
+    }
+    .contact-logo {
+        padding-bottom: 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    /*    navbar part*/
+    .navbar-light .navbar-toggler {
+        color: #042136;
+        background: #fff;
+        padding: 7px 11px;
+        border-radius: 3px;
+        transition: all linear .3s;
+    }
+    .navbar-light .navbar-toggler:hover {
+        background: #129dff;
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-nav {
+        background: #042136;
+        border-radius: 3px;
+        text-align: center;
+    }
+    /*    bennar part*/
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .banner-text p {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 27px;
+    }
+    .hvr-bounce-to-left {
+        padding: 11px 6px;
+    }
+    .hvr-bounce-to-right {
+        padding: 11px 15px;
+    }
+    /*    about part*/
+    .about-text h3 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 15px;
+        margin-bottom: 35px;
+        text-align: center;
+        padding: 0px 92px;
+    }
+    .about-btn {
+        text-align: center;
+    }
+    /*    portfolio part*/
+    .portfolio-controllers .filter-btn {
+        float: none;
+        margin: 5px 5px;
+    }
+    .title-text {
+        padding: 0px 0px;
+        padding-bottom: 15px;
+    }
+    /*    service part*/
+    #service {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .service-items {
+        padding-top: 50px;
+    }
+    .service-items i {
+        padding-bottom: 20px;
+    }
+    .service-items h3 {
+        padding-bottom: 8px;
+    }
+    .service-items p {
+        padding: 0 15px;
+        padding-bottom: 50px;
+        margin-top: 10px;
+    }
+    /*    team patr*/
+    #team {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .team-member {
+        margin-bottom: 35px;
+    }
+    /*    counter part*/
+    .counter-text {
+        margin-bottom: 30px;
+    }
+    /*    blog part*/
+    .blog-img img {
+        margin-top: 40px;
+    }
+    .blog-head h3 {
+        margin-bottom: 5px;
+    }
+    #blog {
+        padding-bottom: 50px;
+    }
+    .blog-head p {
+        margin-top: 35px;
+        padding-bottom: 0px;
+    }
+    /*    contact part*/
+    .contact-text i {
+        margin-top: 35px;
+    }
+    .contact-logo {
+        padding-bottom: 0px;
+    }
+    .contact-text {
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {}
