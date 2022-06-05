@@ -118,6 +118,8 @@ a:hover {
 /*banner part css*/
 
 #banner {
+    dispaly: flex;
+    align-items:center;
     background: url(../images/banner2.jpg);
     position: relative;
     height: 100vh;
