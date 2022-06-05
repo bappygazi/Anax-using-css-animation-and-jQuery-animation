@@ -1,8 +1,8 @@
 /* 
 ------------------
 Template Name: ANAX Personal Portfolio
-Author: Themepoo
-Author Email: themepoo.cit@gmail.com
+Author: bappygazi
+Author Email: bappygazi51@gmail.com
 Version: 1.00
 ------------------
 
@@ -120,7 +120,8 @@ a:hover {
 #banner {
     background: url(../images/banner2.jpg);
     position: relative;
-    padding-top: 210px;
+    height: 100vh;
+    padding-top: 250px;
     padding-bottom: 165px;
     background-attachment: fixed;
 }
